@@ -17,6 +17,7 @@ or
 
 - $ git clone https://github.com/ExsoKamabay/Leopard.git && cd Leopard && pip3 install -r dev-requirements.txt && python3 leopard.py
 
+note: this update from https://github.com/ExsoKamabay/stools
 
 send fake email, auto track ip and check ADB connection, 
 tool to find out ip address location, 
