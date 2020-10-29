@@ -51,7 +51,7 @@ class Leopard_options(Leopard_scrap):
             "mode  : <search  or  execute>\n"+
             "execute mode >  mailspoof, adbtrack, ipgeo <targetIP>, portscan <targetIP>\n"+
             "search mode >  enter the name you are looking for\n\n"+
-            "example :\n"+"search 'tools pentesting'\nexecute ipgeo 127.0.0.1\nexecute adbtrack",
+            "example :\n"+"search 'tools pentesting'\nexecute ipgeo 127.0.0.1\nexecute adbtrack \nexecute portscan 127.0.0.1",
             self.rand_color()));
     def nmap(self,host):
         setattr(self,"hst",(Nmap().scan_top_ports(host,default=15)));
